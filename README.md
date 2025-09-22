@@ -1,4 +1,4 @@
-flowchart TD
+\`\`\`mermaid flowchart TD
   start([시작: 지난 1달 생활 회상]) --> A1{A1: 하루 대부분 집/방에서 보냈는가?}
   A1 -->|예| A3{A3: 지속기간 ≥6개월? (3~6개월은 Pre-hikikomori)}
   A1 -->|아니오| A2{A2: 외출 주 4회 미만인가? (분리수거/생필품 제외)}
@@ -56,3 +56,4 @@ flowchart TD
   classify -->|B,C,D 충족| iso[사회적 고립군]
   classify -->|A,B,C,D 충족| hiki[히키코모리(Subtype)]
   classify -->|그 외| noniso[일반군]
+ \`\`\`
